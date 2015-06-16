@@ -40,6 +40,7 @@ a, a:hover {
   margin: auto;
   box-shadow: 0 3px 7px 0 #4f4a65;
   border: 2px solid #55acee !important;
+  max-height: 280px;
 }
 
 .modal-content img {
