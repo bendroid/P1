@@ -52,6 +52,10 @@ a, a:hover {
   font-size: 18px;
 }
 
+.modal-footer button {
+  font-size: 18px;
+}
+
 .profile-divider {
   height: 1px;
   width: 90%;
