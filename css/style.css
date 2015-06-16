@@ -1,0 +1,354 @@
+body, html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 2000px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.modal.content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+a,a:hover {
+  text-decoration: none
+}
+
+.shadow {
+  box-shadow: 0 3px 7px 0 #4f4a65;
+}
+
+.jumbotron {
+  background-color: #fff;
+  box-shadow: 0 3px 7px 0 #4f4a65;
+}
+
+.projects .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.projects img {
+  border-radius: 0;
+  margin: auto;
+  box-shadow: 0 3px 7px 0 #4f4a65;
+  border: 2px solid #55acee !important;
+}
+
+.modal-content img {
+  box-shadow: 0 3px 7px 0 #4f4a65;
+  max-height: 180px;
+}
+
+.modal-body {
+  font-size: 18px;
+}
+
+.profile-divider {
+  height: 1px;
+  width: 90%;
+  background-color: #55acee;
+  box-shadow: 0 3px 7px 0 #4f4a65;
+}
+
+.navbar li {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 1px;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: #55acee;
+  color: #fff;
+  box-shadow: 0 3px 7px 0 #4f4a65;
+  border: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+  background-color: #55acee;
+  color: #fff;
+  border-radius: 0;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-color: #55acee;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: #55acee;
+    color: #fff;
+    border-radius: 0%;
+  }
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: #55acee;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #55acee;
+    color: #fff;
+    border-radius: 0%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #55acee;
+    color: #fff;
+    box-shadow: 0 3px 7px 0 #4f4a65;
+    border-color:rgba(0,0,0,0.2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #55acee;
+    color: #fff;
+    box-shadow: 0 3px 7px 0 #4f4a65;
+    border-color:rgba(0,0,0,0.2);
+    border-radius: 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #55acee;
+    color: #fff;
+    box-shadow: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: #55acee;
+    color: #fff;
+  }
+}
+
+.btn-image {
+  background-image: url(../img/ben-tiny.jpg), linear-gradient(#fff, #fff 25%, #e6e6e6);
+  border-radius:50%;
+  box-shadow: 0 3px 7px 0 #4f4a65;
+  border: 2px solid #55acee !Important;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  filter: none;
+}
+
+.btn-image:focus, .btn-image:active:focus, .btn-image.active:focus {
+  background-image: url(../img/ben-tiny.jpg), linear-gradient(#fff, #fff 25%, #e6e6e6);
+  border-radius:50%;
+  border: 2px solid #dd4b39 !Important;
+  outline: 0 none;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  filter: none;
+}
+
+.btn-lg, .btn-social-icon {
+  padding: 15px 16px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  height: 72px;
+  width: 72px;
+}
+
+.btn-lg:hover, .btn-social-icon:hover {
+  border-radius: 6px;
+  padding: 15px 16px;
+}
+
+.btn-google-plus {
+  color:#fff;
+  background-color:#dd4b39;
+  border-color:rgba(0,0,0,0.2);
+  box-shadow: 0 3px 7px 0 #4f4a65
+}
+
+.btn-social-icon.btn-google-plus:hover {
+  color:#fff;
+  background-color:#ca3523;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-facebook {
+  color:#fff;
+  background-color:#3b5998;
+  border-color:rgba(0,0,0,0.2);
+  box-shadow: 0 3px 7px 0 #4f4a65
+}
+
+.btn-social-icon.btn-facebook:hover {
+  color:#fff;
+  background-color:#30487b;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-github {
+  color:#fff;
+  background-color:#444;
+  border-color:rgba(0,0,0,0.2);
+  box-shadow: 0 3px 7px 0 #4f4a65
+}
+
+.btn-social-icon.btn-github:hover {
+  color:#fff;
+  background-color:#303030;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-twitter {
+  color:#fff;
+  background-color:#55acee;
+  border-color:rgba(0,0,0,0.2);
+  box-shadow: 0 3px 7px 0 #4f4a65
+}
+
+.btn-social-icon.btn-twitter:hover {
+  color:#fff;
+  background-color:#309aea;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-stackoverflow {
+  color:#fff;
+  background-color:#d38b28;
+  border-color:rgba(0,0,0,0.2);
+  box-shadow: 0 3px 7px 0 #4f4a65
+}
+
+.btn-social-icon.btn-stackoverflow:hover {
+  color:#fff;
+  background-color:#d37a00;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.fa {
+  display: inline-block;
+  color: #fff;
+}
+
+@media screen and (min-width: 570px) {
+  .float {
+    display: none;
+  }
+
+  .social-mobile {
+    float: right;
+    list-style: none outside none;
+    margin: 0;
+    margin-bottom: 5px;
+    min-width: 61px;
+    padding: 0;
+    background:none;
+    border:none;
+    box-shadow:none;
+  }
+
+  .social-mobile li {
+    display: block;
+    font-size: 18px;
+    list-style: none outside none;
+    margin: 3px 0 15px 0;
+  }
+
+.social-mobile li a {
+    font-size: 16px;
+    width: 54px;
+    height: 54px;
+    padding: 12px 15px 12px 15px;
+  }
+
+.social-static {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+
+  .social-static li {
+    display: inline;
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .social-static, .social-static li {
+    display: none;
+  }
+}
+
+.float{
+  background-image: url(../img/ben-tiny.jpg), linear-gradient(#fff, #fff 25%, #e6e6e6);
+  border-radius:50%;
+  box-shadow: 0 3px 7px 0 #4f4a65;
+  border: 2px solid #55acee !Important;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  filter: none;
+}
+
+.float:focus, .float:active:focus, .float.active:focus {
+  background-image: url(../img/ben-tiny.jpg), linear-gradient(#fff, #fff 25%, #e6e6e6);
+  border-radius:50%;
+  border: 2px solid #dd4b39 !Important;
+  outline: 0 none;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  filter: none;
+}
+
+.btn-group {
+  margin-right: 15px;
+  margin-bottom: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 54px;
+  height: 54px;
+  z-index: 100;
+  display: inline;
+  text-decoration: none;
+}
+
+footer {
+  border-top: 1px solid #33b5e5;
+  padding: 1em;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5em;
+}
