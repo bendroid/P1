@@ -135,7 +135,7 @@ a, a:hover {
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: #55acee;
     color: #fff;
-    box-shadow: 0;
+    box-shadow: none;
   }
 }
 
@@ -154,7 +154,6 @@ a, a:hover {
   width: 48px;
   height: 48px;
   padding: 0;
-  filter: none;
 }
 
 .btn-image:focus, .btn-image:active:focus, .btn-image.active:focus {
@@ -165,7 +164,6 @@ a, a:hover {
   width: 48px;
   height: 48px;
   padding: 0;
-  filter: none;
 }
 
 .btn-lg, .btn-social-icon {
@@ -284,7 +282,6 @@ a, a:hover {
     width: 54px;
     height: 54px;
     padding: 0;
-    filter: none;
   }
 
   .float:focus, .float:active:focus, .float.active:focus {
@@ -295,7 +292,6 @@ a, a:hover {
     width: 54px;
     height: 54px;
     padding: 0;
-    filter: none;
   }
 
   .btn-group {
