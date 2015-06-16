@@ -129,6 +129,7 @@ a, a:hover {
     border-radius: 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: #55acee;
@@ -273,6 +274,7 @@ a, a:hover {
   .social-static, .social-static li {
     display: none;
   }
+
   .float{
     background-image: url(../img/ben-tiny.jpg), linear-gradient(#fff, #fff 25%, #e6e6e6);
     border-radius:50%;
@@ -307,6 +309,7 @@ a, a:hover {
     display: inline;
     text-decoration: none;
   }
+
   .social-mobile {
     float: right;
     list-style: none outside none;
