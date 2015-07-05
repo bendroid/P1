@@ -7,7 +7,7 @@ html {
 
 body {
   min-height: 2000px;
-  padding: 100px 0 200px 0;
+  padding: 100px 0 200px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -32,7 +32,6 @@ a:hover {
 .projects .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
-  margin-top: 20px;
 }
 
 .projects img {
@@ -323,7 +322,7 @@ a:hover {
   }
 
   .btn-group {
-    margin: 0 15px 30px 0px;
+    margin: 0 15px 30px 0;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -349,14 +348,14 @@ a:hover {
     display: block;
     font-size: 18px;
     list-style: none outside none;
-    margin: 3px 0 15px 0;
+    margin: 3px 0 15px;
   }
 
   .social-mobile li a {
     font-size: 16px;
     width: 54px;
     height: 54px;
-    padding: 12px 15px 12px 15px;
+    padding: 12px 15px;
   }
 }
 
