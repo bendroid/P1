@@ -162,15 +162,19 @@ a:hover {
   }
 }
 
-.nav-logo {
-  height: 64px;
-  width: 64px;
-  border-radius: 50%;
-  box-shadow: 0 3px 7px 0 #4f4a65;
-  border: 2px solid #55acee !Important;
-  width: 48px;
-  height: 48px;
-  margin: 5px 15px;
+@media screen and (min-width: 768px) {
+  .nav-logo {
+    background-image: url(../img/ben-tiny.jpg),
+  linear-gradient(#fff, #fff 25%, #e6e6e6);
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    box-shadow: 0 3px 7px 0 #4f4a65;
+    border: 2px solid #55acee !Important;
+    width: 48px;
+    height: 48px;
+    margin: 5px 15px;
+  }
 }
 
 .btn-image {
